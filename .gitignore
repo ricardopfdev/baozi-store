@@ -1,0 +1,34 @@
+# Arquivos de compilacao do Maven
+target/
+
+# Configuracoes do IntelliJ IDEA
+.idea/
+*.iml
+
+# Configuracoes do Eclipse
+.classpath
+.project
+.settings/
+
+# Arquivos de log
+*.log
+logs/
+
+# Arquivos temporarios
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuracao local e dados sensiveis
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# Dependencias JavaScript, se houver
+node_modules/
+
+# Arquivos de backup
+*.bak
+*.old
